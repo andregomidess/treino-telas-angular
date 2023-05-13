@@ -1,0 +1,30 @@
+.buttons-csv-excel{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+  display: flex;
+  align-items: center;
+
+  .margin{
+    margin-right: 16px;
+  }
+
+
+  .buttons {
+    //position: absolute;
+    width: 6rem;
+    height: 3rem;
+    color: #FFFFFF;
+    /* Primary/500 */
+    background: #006635;
+    border-radius: 10px;
+    border: none;
+  }
+
+}
