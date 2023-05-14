@@ -1,0 +1,29 @@
+
+
+th, td:not(:last-child){
+  border-right: 1px solid #ccc;
+}
+
+
+
+table{
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #004725;
+}
+.borda1{
+  border-radius: 10px 0px 0px 0px;
+}
+.borda2{
+  border-radius: 0px 10px 0px 0px;
+}
+
+.header-table{
+  background-color: #004725;
+  color: white;
+}
+

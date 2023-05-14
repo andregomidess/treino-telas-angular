@@ -1,0 +1,40 @@
+.perfil-sair{
+  background: #006635;
+  border-radius: 20px 0px 0px 20px;
+  width: 23rem;
+  height: 3.2rem;
+  position: fixed;
+  right: 0;
+  top: 3%;
+  //transform: translateY(-55%);
+
+    p{
+      margin-bottom: 0;
+      //margin-right: 20px;
+      margin-left: 20px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 120%;
+      /* or 31px */
+
+      display: flex;
+      align-items: center;
+
+      color: #FFFFFF;
+    }
+    img{
+      margin-left: 20px;
+    }
+    span{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 120%;
+      color: #FFFFFF;
+      margin-left: 5px;
+    }
+
+}

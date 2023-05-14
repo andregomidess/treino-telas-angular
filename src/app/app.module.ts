@@ -10,6 +10,8 @@ import { CardEmpresasComponent } from './tela-adm/card-empresas/card-empresas.co
 import { CsvExcelComponent } from './tela-adm/card-empresas/csv-excel/csv-excel.component';
 import { BuscaEmpresaComponent } from './tela-adm/card-empresas/busca-empresa/busca-empresa.component';
 import { ButtonCadastrarEmpresaComponent } from './tela-adm/card-empresas/button-cadastrar-empresa/button-cadastrar-empresa.component';
+import { PerfilSairComponent } from './tela-adm/perfil-sair/perfil-sair.component';
+import { TabelaEmpresasComponent } from './tela-adm/card-empresas/tabela-empresas/tabela-empresas.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ButtonCadastrarEmpresaComponent } from './tela-adm/card-empresas/button
     CardEmpresasComponent,
     CsvExcelComponent,
     BuscaEmpresaComponent,
-    ButtonCadastrarEmpresaComponent
+    ButtonCadastrarEmpresaComponent,
+    PerfilSairComponent,
+    TabelaEmpresasComponent
   ],
   imports: [
     BrowserModule,
