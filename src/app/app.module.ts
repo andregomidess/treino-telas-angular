@@ -12,6 +12,7 @@ import { BuscaEmpresaComponent } from './tela-adm/card-empresas/busca-empresa/bu
 import { ButtonCadastrarEmpresaComponent } from './tela-adm/card-empresas/button-cadastrar-empresa/button-cadastrar-empresa.component';
 import { PerfilSairComponent } from './tela-adm/perfil-sair/perfil-sair.component';
 import { TabelaEmpresasComponent } from './tela-adm/card-empresas/tabela-empresas/tabela-empresas.component';
+import { SideBarComponent } from './tela-adm/side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TabelaEmpresasComponent } from './tela-adm/card-empresas/tabela-empresa
     BuscaEmpresaComponent,
     ButtonCadastrarEmpresaComponent,
     PerfilSairComponent,
-    TabelaEmpresasComponent
+    TabelaEmpresasComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,
